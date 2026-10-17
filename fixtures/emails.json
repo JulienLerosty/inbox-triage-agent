@@ -1,0 +1,15 @@
+[
+  { "id": "e01", "from": "maria@example.org", "subject": "Quick call this week?", "body": "Hi, could we schedule a call on Thursday or Friday to go over the brand refresh? Thanks, Maria" },
+  { "id": "e02", "from": "tom@example.org", "subject": "Where is my order #4821?", "body": "Hello, order status please. I ordered the poster set nine days ago and have no tracking number yet." },
+  { "id": "e03", "from": "lena@example.org", "subject": "Opening hours", "body": "What are your hours on Fridays? I would like to drop by with a proof." },
+  { "id": "e04", "from": "paul@example.org", "subject": "Re: files", "body": "Got it, thanks! The files arrived and look great." },
+  { "id": "e05", "from": "ana@example.org", "subject": "Charged twice", "body": "I was charged twice for invoice 2217 and I want a refund of the second payment." },
+  { "id": "e06", "from": "karl@example.org", "subject": "Unacceptable", "body": "The prints arrived damaged and the colours are wrong. This is unacceptable and I am very disappointed. I will leave a review." },
+  { "id": "e07", "from": "dpo@lawfirm.example", "subject": "GDPR data deletion request", "body": "On behalf of my client we request data deletion under GDPR Article 17 within 30 days. Please confirm." },
+  { "id": "e08", "from": "cfo@startup.example", "subject": "New project: rebrand", "body": "We are looking for a quote for a full rebrand. Our budget is around 15k. Could you send a scope?" },
+  { "id": "e09", "from": "growth@seo-boost.example", "subject": "Guaranteed ranking in 7 days", "body": "Act now! Our SEO services give you a guaranteed ranking. Unsubscribe below." },
+  { "id": "e10", "from": "sam@example.org", "subject": "Turnaround and formats", "body": "Hi, what is your usual turnaround, and do you offer SVG files for a logo?" },
+  { "id": "e11", "from": "jo@example.org", "subject": "Hm", "body": "Saw your studio at the fair. Maybe something for later, who knows." },
+  { "id": "e12", "from": "security@researcher.example", "subject": "Found a vulnerability on your site", "body": "I found a vulnerability in your contact form. Where do I send details? Thanks, I would like a response soon." },
+  { "id": "e13", "from": "ivy@example.org", "subject": "Thanks + refund?", "body": "Thank you for the quick work! One more thing: can I get a refund on the extra revision round?" }
+]

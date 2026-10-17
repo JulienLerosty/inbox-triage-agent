@@ -1,0 +1,23 @@
+{
+  "business": "Northwind Studio, a small design studio (sample data)",
+  "signature": "Northwind Studio team",
+  "minConfidence": 0.75,
+  "labels": {
+    "meeting-request": { "action": "draft", "rule": "Asks to schedule a call or meeting. Reply offers the booking link; never confirms a time.", "keywords": ["schedule a call", "book a call", "available for a call", "set up a meeting", "find a time", "quick call"] },
+    "order-status": { "action": "draft", "rule": "Asks where an order or delivery is, with no complaint about damage or money.", "keywords": ["where is my order", "order status", "tracking", "has my order shipped", "delivery date"] },
+    "faq": { "action": "draft", "rule": "Asks a question answered by the written FAQ (opening hours, pricing page, turnaround, file formats).", "keywords": ["opening hours", "what are your hours", "do you accept", "turnaround", "file format", "do you offer"] },
+    "thanks": { "action": "draft", "rule": "Only says thanks or confirms receipt. Reply is a short acknowledgement.", "keywords": ["thank you", "thanks for", "much appreciated", "got it, thanks"] },
+    "billing": { "action": "human", "rule": "Refunds, chargebacks, invoice disputes, payment problems. Money is always a human decision.", "keywords": ["refund", "chargeback", "invoice", "charged twice", "overcharged", "payment failed"] },
+    "complaint": { "action": "human", "rule": "Unhappy customer, damaged or wrong goods, threats to leave a review.", "keywords": ["unacceptable", "damaged", "very disappointed", "complaint", "terrible", "wrong item"] },
+    "legal-security": { "action": "human", "rule": "Legal notices, contracts, GDPR/data requests, security reports, press.", "keywords": ["lawyer", "legal action", "gdpr", "data deletion", "vulnerability", "contract", "press inquiry", "subpoena"] },
+    "sales-lead": { "action": "human", "rule": "A new prospect asking for a quote or project scope. A person should answer.", "keywords": ["quote for", "request for proposal", "rfp", "our budget", "new project"] },
+    "spam": { "action": "ignore", "rule": "Unsolicited promotion, SEO offers, phishing. No reply, no queue.", "keywords": ["seo services", "guaranteed ranking", "act now", "you have won", "unsubscribe", "verify your account"] },
+    "other": { "action": "human", "rule": "Anything that fits no label. Never guess: a person decides.", "keywords": [] }
+  },
+  "faq": {
+    "hours": "Monday to Friday, 9:00 to 17:00 CET.",
+    "turnaround": "Standard projects take 5 to 7 working days after briefing.",
+    "formats": "We deliver PNG, SVG and PDF; source files (Figma, AI) on request.",
+    "bookingLink": "https://example.com/book (sample link)"
+  }
+}
